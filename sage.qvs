@@ -29,3 +29,13 @@ LOAD * inline [
     6, 6, Prévisonnel production pour qté réalisée
     ];
     
+DimType:
+LOAD * inline [
+	PK_TYPE, PK_COST_TYPE, TYPE
+    1, 1, Prévisionnel théorique
+    2, 2, Prévisionnel lancement
+	3, 3, Prévisionnel production
+    4, 4, Prix de revient réel
+    5, 5, Prix de revient réel pour qté prévue
+    6, 6, Prévisonnel production pour qté réalisée
+    ];
